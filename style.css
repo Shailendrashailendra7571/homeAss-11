@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://www.eatingwell.com/thmb/088YHsNmHkUQ7iNGP4375MiAXOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_7866255_foods-you-should-eat-every-week-to-lose-weight_-04-d58e9c481bce4a29b47295baade4072d.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 0%;
+}
+#form_container{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding: 1%;
+}
+#form_container>h1{
+    text-align: center;
+    height: 10%;
+    margin: 0%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 90%;
+    background-color: white;
+}
+#calcbtn{
+    width: 100%;
+    padding: 4% 0%;
+    font-size: 130%;
+    background-color: rgb(249, 15, 132);
+    color: rgb(38, 4, 4);
+    border: 2px solid grey;
+}
+h1{
+    color: rgb(8, 237, 245);
+}
+label{
+    color: rgb(20, 99, 97);
+    font-size: 130%;
+    font-weight: bolder;
+}
